@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>API 호출 예시</title>
+</head>
+<body>
+  <input type="text" id="inputValue">
+  <button onclick="callApi()">API 호출</button>
+  <script>
+	document.cookie = "cookie1=soo; SameSite=Lax"; 
+	document.cookie = "cookie2=soo"; 
+	document.cookie = "cookie3=hoo; SameSite=None; Secure";
+    function callApi() {
+      const inputValue = document.getElementById('inputValue').value;
+      const script = document.createElement('script');
+      script.src = `https://apis.data.go.kr/1140100/minAnalsInfoView5/minStaticsInfo5?serviceKey=%2BFt24AieBZS226pLyjL27AFUlgQNvW5fiuAZAGXldP%2FsyRgKEe3ose2K%2FPbQ1kaOuxGg3HQkAHtCTeZjIA06UA%3D%3D&period=MONTHLY&sortBy=NAME&sortOrder=false&target=pttn&dateFrom=20220101000000&dateTo=2022123159590000`;
+      document.head.appendChild(script);
+    }
+    function handleResponse(data) {
+      // 서버 응답 결과 처리
+      console.log(data);
+    }
+  </script>
+</body>
+</html>
