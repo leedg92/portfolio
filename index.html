@@ -1,221 +1,337 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>개발자 이동근 포트폴리오</title>
-		<meta property="og:title" content="개발자 이동근 포트폴리오"/>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백엔드 개발자 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="#intro">DEV. JACKURI</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#intro">홈</a></li>
+                <li><a href="#skills">기술 스택</a></li>
+                <li><a href="#career">경력</a></li>
+                <li><a href="#portfolio">프로젝트</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<h1 id="logo">
-					<p style="font-size:0.9em;"><a href="#">LEE DONG GEUN</a></p>
-					</h1>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Introduction</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">Career</a></li>
-						<li><a href="#four">Portfolio</a></li>
-						<li><a href="#five">Contact</a></li>
-					</ul>
-				</nav>
-			</section>
+    <!-- 인트로 섹션 -->
+    <section id="intro" class="section">
+        <div class="container">
+            <div class="intro-content fade-in">
+                <h1>백엔드 개발자</h1>
+                <h2>안정적인 서비스와 데이터 기반 솔루션을 구축합니다</h2>
+                <p>Backend developer with experience in developing and operating systems based on Java</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">프로젝트 보기</a>
+                    <a href="#contact" class="btn btn-secondary">연락하기</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>스크롤</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- 기술 스택 섹션 -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">기술 스택</h2>
+            
+            <div class="skill-category reveal-item">
+                <h3>Backend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/java.png" alt="Java"></div>
+                        <div class="skill-info">
+                            <h4>Java</h4>
+                            <p>전자정부 프레임워크 기반 서버 개발</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/python.png" alt="Python"></div>
+                        <div class="skill-info">
+                            <h4>Python</h4>
+                            <p>데이터 처리, AI/ML 모델 개발</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/database.png" alt="Database"></div>
+                        <div class="skill-info">
+                            <h4>데이터베이스</h4>
+                            <p>Oracle DB, MariaDB, MySQL - 설계 및 운영</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/elasticsearch.png" alt="Elasticsearch"></div>
+                        <div class="skill-info">
+                            <h4>SearchStudio</h4>
+                            <p>Elasticsearch 기반 검색 엔진 구축 및 운영</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/airflow.png" alt="Airflow"></div>
+                        <div class="skill-info">
+                            <h4>Apache Airflow</h4>
+                            <p>데이터 파이프라인 워크플로우 관리</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-				<!-- Main -->
-					<div id="main">
+            <div class="skill-category reveal-item">
+                <h3>Frontend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/jsp.png" alt="JSP"></div>
+                        <div class="skill-info">
+                            <h4>JSP</h4>
+                            <p>서버 사이드 렌더링</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/javascript.png" alt="JavaScript"></div>
+                        <div class="skill-info">
+                            <h4>Vanilla JavaScript</h4>
+                            <p>클라이언트 사이드 프로그래밍</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Introduction</h2>
-										<p>백엔드 개발자 이동근입니다</p>
-									</header>									
-								</div>
-							</section>
+            <div class="skill-category reveal-item">
+                <h3>DevOps & Infrastructure</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/linux.png" alt="Linux"></div>
+                        <div class="skill-info">
+                            <h4>Linux, Ubuntu</h4>
+                            <p>서버 운영</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/tomcat.png" alt="Tomcat"></div>
+                        <div class="skill-info">
+                            <h4>Apache Tomcat</h4>
+                            <p>WAS 구축 및 운영</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/docker.png" alt="Docker"></div>
+                        <div class="skill-info">
+                            <h4>Docker</h4>
+                            <p>컨테이너 기반 서비스 운영</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/jenkins.png" alt="Jenkins"></div>
+                        <div class="skill-info">
+                            <h4>Jenkins</h4>
+                            <p>CI/CD 파이프라인 구축</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/gitlab.png" alt="GitLab"></div>
+                        <div class="skill-info">
+                            <h4>GitLab</h4>
+                            <p>형상관리</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Skills</h3>
-									<p>프로그래밍 언어</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Java</li>										
-										<li class="icon solid fa-code">Python</li>
-										<li class="icon solid fa-code">JavaScript</li>
-										<li class="icon solid fa-code">HTML/CSS</li>
-									</ul>
-									<p>프레임워크 및 라이브러리</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-cubes">Spring Framework</li>
-										<li class="icon solid fa-cubes">전자정부 Framework</li>
-										<li class="icon solid fa-cubes">MyBatis</li>
-										<li class="icon solid fa-cubes">JQuery</li>
-										<li class="icon solid fa-cubes">JSP</li>
-									</ul>
-									<p>데이터베이스</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-database">Oracle</li>
-										<li class="icon solid fa-database">MariaDB</li>
-										<li class="icon solid fa-database">MySQL</li>
-									</ul>
-									<p>개발 도구 및 기술</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-tools">Eclipse</li>
-										<li class="icon solid fa-tools">Git/GitHub</li>
-										<li class="icon solid fa-tools">CVS</li>
-										<li class="icon solid fa-tools">SVN</li>
-										<li class="icon solid fa-tools">Jenkins</li>
-										<li class="icon solid fa-tools">SQL Developer</li>										
-									</ul>
-									<p>기타 기술</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-laptop-code">RESTful API 개발</li>
-										<li class="icon solid fa-laptop-code">웹 서비스 개발</li>
-										<li class="icon solid fa-laptop-code">데이터 파이프라인 구축</li>
-										<li class="icon solid fa-laptop-code">Elasticsearch</li>
-										<li class="icon solid fa-laptop-code">서버 성능 최적화</li>
-										<li class="icon solid fa-laptop-code">데이터베이스 설계 및 쿼리 최적화</li>
-									</ul>
-								</div>
-							</section>
+            <div class="skill-category reveal-item">
+                <h3>AI/ML</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/ai.png" alt="AI"></div>
+                        <div class="skill-info">
+                            <h4>Vector Embedding</h4>
+                            <p>의미기반 매칭 시스템 구현</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Career</h3>
-									<div class="features">
-										<article>
-											<div class="inner">
-												<h4>㈜다이퀘스트 (㈜솔트룩스이노베이션 합병)</h4>
-												<p>대리/팀원 1년차 · 백엔드/서버개발<br>
-												2024.04 ~ 현재</p>
-											</div>
-										</article>
-										<article>
-											<div class="inner">
-												<h4>㈜솔트룩스이노베이션</h4>
-												<p>주임/팀원 2년차 · 백엔드/서버개발<br>
-												2023.04 ~ 2024.04 (1년 1개월)</p>
-											</div>
-										</article>
-										<article>
-											<div class="inner">
-												<h4>㈜타임소프트</h4>
-												<p>주임/팀원 3년차 · 백엔드/서버개발<br>
-												2020.03 ~ 2023.03 (3년 1개월)</p>
-												<ul>
-													<li>큐넷 / 모바일 큐넷 서비스 유지보수
-														<ul>
-															<li>수정/추가 요청사항 개발</li>
-															<li>접수 시 부하에 대비한 쿼리 및 소스 튜닝</li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+    <!-- 경력 섹션 -->
+    <section id="career" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">경력</h2>
+            
+            <div class="career-container reveal-item">
+                <div class="timeline-item">
+                    <div class="company">㈜다이퀘스트</div>
+                    <div class="period">2024.04 ~ 현재</div>
+                    <div class="position">대리/팀원</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="company">㈜솔트룩스이노베이션</div>
+                    <div class="period">2023.04 ~ 2024.04</div>
+                    <div class="position">주임/팀원</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="company">㈜타임소프트</div>
+                    <div class="period">2020.03 ~ 2023.03</div>
+                    <div class="position">주임/팀원</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Portfolio</h3>
-									
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/qnet.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>산업인력공단 모바일큐넷 프로젝트</h4>
-												<p>- 유지보수 및 기능 개발: 간편인증 로그인, 로그 구현, 빈자리 추가접수 등<br>
-												   - 공인중개사 접수시스템 개발: 백엔드 및 프론트엔드 구현<br>
-												   - 사용 기술: 전자정부 framework, Java, OracleDB</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/gonginImg.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>산업인력공단 주치의서비스 개발</h4>
-												<p>- 데이터 파이프라인 구축<br>
-												   - 데이터 전/후처리 패키지프로시저 개발<br>
-												   - 백엔드 및 프론트엔드 개발<br>
-												   - 사용 기술: 전자정부 framework, Java, Python, OracleDB</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pknuImg.png" alt="" /></a>
-											<div class="inner">
-												<h4>부경대학교 교과목 학생기반 AI추천 웹 개발</h4>
-												<p>- 백엔드 개발<br>
-												   - 프론트엔드 개발<br>
-												   - 데이터 및 패키지프로시저 구축<br>
-												   - 개발/운영환경 구축<br>
-												   - 사용 기술: 전자정부 framework, Java, Python, SearchStudio(Elasticsearch 통합 관리 플랫폼), OracleDB</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/kmouImg.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>해양대학교 교과 비교과 검색 추천 서비스</h4>
-												<p>- 백엔드 개발<br>
-												   - 프론트엔드 개발<br>
-												   - 데이터 구축<br>
-												   - 개발/운영환경 구축<br>
-												   - 사용 기술: 전자정부 framework, Java, Python, SearchStudio(Elasticsearch 통합 관리 플랫폼), OracleDB, MariaDB, MySQL, Jenkins</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+    <!-- 포트폴리오 섹션 -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">프로젝트</h2>
+            
+            <div class="projects-grid">
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>부경대학교 학생기반 AI추천 서비스 고도화</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SearchStudio</span>
+                            <span class="tech-tag">OracleDB</span>
+                            <span class="tech-tag">GitLab</span>
+                            <span class="tech-tag">Jenkins</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>시스템 분석/설계 및 Backend/Frontend 개발</li>
+                            <li>GitLab 기반 형상관리 체계 구축</li>
+                            <li>Jenkins, Docker 기반 자동배포 환경 구축</li>
+                            <li>Airflow 기반 데이터 파이프라인 구축</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>해양대학교 교과/비교과 검색 추천 서비스</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SearchStudio</span>
+                            <span class="tech-tag">OracleDB</span>
+                            <span class="tech-tag">MariaDB</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Jenkins</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Backend/Frontend 개발</li>
+                            <li>다중 DBMS(Oracle, MariaDB, MySQL) 환경 구축</li>
+                            <li>Jenkins, Docker 기반 개발/운영환경 구축</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>부경대학교 교과목 학생기반 AI추천 웹 개발</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SearchStudio</span>
+                            <span class="tech-tag">OracleDB</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Backend/Frontend 개발</li>
+                            <li>Vector Embedding 기반 추천 시스템 구현</li>
+                            <li>데이터 및 패키지프로시저 구축</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>산업인력공단 주치의서비스 개발</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OracleDB</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>Airflow 기반 데이터 파이프라인 구축</li>
+                            <li>데이터 전/후처리 패키지프로시저 구축</li>
+                            <li>Backend/Frontend 개발</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>산업인력공단 모바일큐넷 유지보수/개발</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OracleDB</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>공인중개사 접수시스템 개발</li>
+                            <li>간편인증 로그인 및 로그 구현</li>
+                            <li>빈자리 추가접수 개발</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Five -->
-							<section id="five">
-								<div class="container">
-									<h3>Contact Me</h3>
-										<ul>
-											<li>Phone : 010-9932-2231</li>
-											<li>Email : leedg92@naver.com</li>
-											<li>GitHub :<a href="https://github.com/leedg92"> https://github.com/leedg92</a></li>
-										</ul>
-								</div>
-							</section>
+    <!-- 연락처 섹션 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">연락처</h2>
+            
+            <div class="contact-content reveal-item">
+                <div class="contact-info">
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>leedg92@naver.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+82 10-9932-2231&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/leedg92" target="_blank">github.com/leedg92</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</div>
+    <!-- 푸터 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 백엔드 개발자 포트폴리오. All rights reserved.</p>
+        </div>
+    </footer>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<div class="titlebar">
-				<a href="#">LEE DONG GEUN</a>
-			</div>
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
