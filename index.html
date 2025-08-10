@@ -35,8 +35,7 @@
         <div class="container">
             <div class="intro-content fade-in">
                 <h1>백엔드 개발자</h1>
-                <h2>Java를 주력으로 백엔드 시스템 개발 및 운영 경험을 갖춘 개발자 이동근입니다</h2>
-                <p>Backend developer with experience in developing and operating systems based on Java</p>
+                <h2>다양한 환경에서의 운영 경험을 갖춘 개발자 이동근입니다</h2>                
                 <div class="cta-buttons">
                     <a href="#portfolio" class="btn btn-primary">프로젝트 보기</a>
                     <a href="#contact" class="btn btn-secondary">연락하기</a>
@@ -61,14 +60,21 @@
                         <div class="skill-icon"><img src="images/java.png" alt="Java"></div>
                         <div class="skill-info">
                             <h4>Java</h4>
-                            <p>전자정부 프레임워크 기반 서버 개발</p>
+                            <p>Spring, Spring Boot 기반 서버 개발</p>
                         </div>
                     </div>
                     <div class="skill-item">
                         <div class="skill-icon"><img src="images/python.png" alt="Python"></div>
                         <div class="skill-info">
                             <h4>Python</h4>
-                            <p>데이터 처리, AI/ML 모델 개발</p>
+                            <p>데이터 처리, FastAPI 기반 서버 개발</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/typescript.png" alt="TypeScript"></div>
+                        <div class="skill-info">
+                            <h4>TypeScript</h4>
+                            <p>Fastify 기반 서버 개발</p>
                         </div>
                     </div>
                     <div class="skill-item">
@@ -81,8 +87,8 @@
                     <div class="skill-item">
                         <div class="skill-icon"><img src="images/elasticsearch.png" alt="Elasticsearch"></div>
                         <div class="skill-info">
-                            <h4>SearchStudio</h4>
-                            <p>Elasticsearch 기반 검색 엔진 구축 및 운영</p>
+                            <h4>Elasticsearch</h4>
+                            <p>검색 엔진 구축 및 운영</p>
                         </div>
                     </div>
                     <div class="skill-item">
@@ -90,6 +96,13 @@
                         <div class="skill-info">
                             <h4>Apache Airflow</h4>
                             <p>데이터 파이프라인 워크플로우 관리</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/elk.png" alt="ELK Stack"></div>
+                        <div class="skill-info">
+                            <h4>ELK Stack</h4>
+                            <p>데이터 분석용 로그 및 차트 구축</p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +115,14 @@
                         <div class="skill-icon"><img src="images/jsp.png" alt="JSP"></div>
                         <div class="skill-info">
                             <h4>JSP</h4>
-                            <p>서버 사이드 렌더링</p>
+                            <p>전자정부 프레임워크 기반 웹 개발</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><img src="images/react.png" alt="React"></div>
+                        <div class="skill-info">
+                            <h4>React</h4>
+                            <p>모던 프론트엔드 개발</p>
                         </div>
                     </div>
                     <div class="skill-item">
@@ -135,7 +155,7 @@
                     <div class="skill-item">
                         <div class="skill-icon"><img src="images/docker.png" alt="Docker"></div>
                         <div class="skill-info">
-                            <h4>Docker</h4>
+                            <h4>Docker (+Portainer)</h4>
                             <p>컨테이너 기반 서비스 운영</p>
                         </div>
                     </div>
@@ -178,14 +198,14 @@
             
             <div class="career-container reveal-item">
                 <div class="timeline-item">
-                    <div class="company">㈜다이퀘스트</div>
-                    <div class="period">2024.04 ~ 현재</div>
+                    <div class="company">㈜스마트엠투엠</div>
+                    <div class="period">2025.05 ~ 현재</div>
                     <div class="position">대리/팀원</div>
                 </div>
                 <div class="timeline-item">
-                    <div class="company">㈜솔트룩스이노베이션</div>
-                    <div class="period">2023.04 ~ 2024.04</div>
-                    <div class="position">주임/팀원</div>
+                    <div class="company">㈜다이퀘스트</div>
+                    <div class="period">2023.04 ~ 2025.04</div>
+                    <div class="position">선임연구원/팀원</div>
                 </div>
                 <div class="timeline-item">
                     <div class="company">㈜타임소프트</div>
@@ -204,6 +224,43 @@
             <div class="projects-grid">
                 <div class="project-item reveal-item">
                     <div class="project-info">
+                        <h3>터미널 컨테이너 운송시스템 헬스체크 백엔드(BFF)</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Fastify</span>
+                            <span class="tech-tag">MariaDB</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Portainer</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>분석/설계</li>
+                            <li>데이터 정합성 모니터링 및 아카이빙 배치 개발</li>
+                            <li>인터페이스 API 개발</li>
+                            <li>배포 및 문서화</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>터미널별 컨테이너 운송시스템 리펙토링</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MariaDB</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>레거시 코드 분석</li>
+                            <li>컨트롤러 레이어 전략패턴 적용</li>
+                            <li>서비스 레이어 파사드패턴 적용</li>
+                            <li>전체 소스코드 주석작업</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
                         <h3>부경대학교 학생기반 AI추천 서비스 고도화</h3>
                         <div class="project-tech">
                             <span class="tech-tag">전자정부 framework</span>
@@ -219,6 +276,7 @@
                             <li>GitLab 기반 형상관리 체계 구축</li>
                             <li>Jenkins, Docker 기반 자동배포 환경 구축</li>
                             <li>Airflow 기반 데이터 파이프라인 구축</li>
+                            <li>서비스 연계 및 협의</li>
                         </ul>
                     </div>
                 </div>
@@ -258,6 +316,7 @@
                             <li>Backend/Frontend 개발</li>
                             <li>Vector Embedding 기반 추천 시스템 구현</li>
                             <li>데이터 및 패키지프로시저 구축</li>
+                            <li>개발/운영환경 구축</li>
                         </ul>
                     </div>
                 </div>
@@ -281,16 +340,49 @@
                 
                 <div class="project-item reveal-item">
                     <div class="project-info">
-                        <h3>산업인력공단 모바일큐넷 유지보수/개발</h3>
+                        <h3>산업인력공단 모바일큐넷 공인중개사 접수시스템 개발</h3>
                         <div class="project-tech">
                             <span class="tech-tag">전자정부 framework</span>
                             <span class="tech-tag">Java</span>
                             <span class="tech-tag">OracleDB</span>
                         </div>
                         <ul class="project-details">
-                            <li>공인중개사 접수시스템 개발</li>
+                            <li>Backend/Frontend 기능개발</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>산업인력공단 모바일큐넷 유지보수</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">전자정부 framework</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OracleDB</span>
+                        </div>
+                        <ul class="project-details">
                             <li>간편인증 로그인 및 로그 구현</li>
-                            <li>빈자리 추가접수 개발</li>
+                            <li>모바일 큐넷 빈자리 추가접수 개발</li>
+                            <li>공단현업 메뉴추가요청 대응</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-item reveal-item">
+                    <div class="project-info">
+                        <h3>개인 개발 실험실</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Fastify</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">...</span>
+                        </div>
+                        <ul class="project-details">
+                            <li>통합 플랫폼 기반 개인 프로젝트 관리</li>
+                            <li>게시판, 뉴스 학습기 등 다양한 토이 프로젝트 개발</li>
+                            <li>React 기반 일관된 UX 제공</li>
+                            <li>점진적 확장 가능한 아키텍처 설계</li>
                         </ul>
                     </div>
                 </div>
