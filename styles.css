@@ -355,6 +355,37 @@ nav .container {
     text-align: right;
 }
 
+.career-description {
+    grid-column: 1 / -1;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+}
+
+.career-project-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.career-tech {
+    font-size: 14px;
+    color: var(--medium-gray);
+    margin-bottom: 12px;
+}
+
+.career-details {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.career-details li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
 /* 포트폴리오 섹션 */
 #portfolio {
     background-color: white;
